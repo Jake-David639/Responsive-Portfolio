@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Stylesheets with Relative Paths</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -13,19 +14,13 @@
 <body>
 
     <header>
-        <div class="nav navBar" id="nav-bar">
-            <h1>Jake David</h1>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <div class="navBar" id="nav-bar">
+            <div class="nav-bar-label">
+                <h1>Jake David</h1>
+            </div>
+            <a class="nav-link" href="index.html"> About </a>
+            <a class="nav-link" href="portfolio.html"> Portfolio </a>
+            <a class="nav-link" href="contact.html"> Contact </a>
         </div>
     </header>
 
@@ -48,10 +43,12 @@
             </p>
             <p class="lead">
                 I'm secretly a weeb, and I play LoL. Silver 4 champion right here! I also enjoy travelling a good
-                bit. I've been all over the world, set foot on five of seven continents. Still need to see pyramids and penguins though, but I'm working on
+                bit. I've been all over the world, set foot on five of seven continents. Still need to see pyramids and
+                penguins though, but I'm working on
                 that.
                 I'm a big fan of snow, mountains, and the ocasional conspiracy theory as well. I have been in the tech
-                industry for 2 years and studied code in college. I'm hoping to move into a development position after the
+                industry for 2 years and studied code in college. I'm hoping to move into a development position after
+                the
                 completion of this program.
             </p>
         </section>
